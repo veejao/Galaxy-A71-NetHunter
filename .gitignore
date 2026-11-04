@@ -1,0 +1,33 @@
+# Kernel build output
+/out/
+/.build/
+*.o
+*.a
+*.so
+*.ko
+*.mod
+*.mod.c
+*.cmd
+*.order
+*.symvers
+Module.symvers
+modules.order
+vmlinux
+System.map
+arch/arm64/boot/Image*
+.config
+.config.old
+
+# Device firmware / proprietary images
+*.tar
+*.tar.md5
+*.img
+*.bin
+*.lz4
+*.zip
+*.apk
+
+# Local logs and temporary files
+*.log
+*.tmp
+.DS_Store
